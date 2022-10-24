@@ -21,9 +21,6 @@ a:focus, a:hover{
     border: 3px blue;
     border-style: dotted solid;
 }
-.shadow {
-    text-shadow: 2px 2px 2px rgb(128, 0, 0)
-}
 header h1{
     font-size: 175%;
     color: maroon;
@@ -34,9 +31,45 @@ header h2{
     color: 8000000;
     text-indent: 30px;
 }
-article h3 {
-    column-span: all;
+header img {
+    float: left;
+    margin: left;
+
 }
+.shadow {
+    text-shadow: 2px 2px 2px rgb(128, 0, 0)
+}
+main {
+    clear: left;
+}
+main h3 {
+    margin: 3em 2em 1.5em;
+    font-size: 105%;
+    border: 5px double blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
+}
+main nav {
+    margin: 1.5 2em 2em;
+    font-size: 105%;
+    border: 5px dashed blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 0.5em;
+}
+main div.contact {
+    margin: 1.5em 2em 0em 2em;
+    font-size: 105%;
+    border: 5px dotted blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
+}
+#list {
+    line-height: 1.5em;
+}
+
 footer p.copyright {
     text-align: center;
     font-size: 80%
