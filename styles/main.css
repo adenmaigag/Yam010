@@ -1,0 +1,35 @@
+html{
+    background-image: linear-gradient(to left, white 0%, #facd8a 100%);
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-left: 10px;
+    width: 90%;
+
+}
+
+a:focus, a:hover{
+    font-style:italic;
+    color: orangered;
+    border: 3px blue;
+    border-style: dotted solid;
+}
+.shadow {
+    text-shadow: 2px 2px 2px rgb(128, 0, 0)
+}
+header h1{
+    font-size: 175%;
+    color: maroon;
+    text-indent: 30 px;
+}
+header h2{
+    font-size: 130%;
+    color: 8000000;
+    text-indent: 30px;
+}
+footer p.copyright {
+    text-align: center;
+    font-size: 80%
+}
